@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/groq/conversation_post/route.js", "app/api/groq/conversation_new/route.js", "app/api/groq/conversation_list/route.js", "app/api/groq/conversation_get/route.js"],
   "exclude": ["node_modules"]
 }
